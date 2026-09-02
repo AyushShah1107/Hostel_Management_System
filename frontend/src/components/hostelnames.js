@@ -1,0 +1,2 @@
+let names=["aaryabhatta","dhanrajgiri","dhanrajgiri - 2","morvi","s n bose","c v raman","satish dhawan","s ramanujan","gsmc old ext. hostel","nivedita","s s saluja","limbdi","vishwakarma","s c de girls hostel","vishweshwaraiya","vivekanand"]
+module.exports=names;

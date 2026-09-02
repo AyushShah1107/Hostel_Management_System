@@ -1,0 +1,233 @@
+.NAVbarDiv{
+    display: flex;
+   border-bottom: 2px solid black;
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+}
+.threeBar{
+    display: none;
+} 
+.logo{
+    width: 45vw;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+.noUserSignPage{
+    display: flex;
+     width: 50vw;
+     justify-content: flex-end;
+    align-items: center;
+}
+.noUserSignPageOnwindow{
+    display: flex;
+    width: 50vw;
+    justify-content: flex-end;
+   align-items: center;
+}
+/* .noUserSignPageOnwindow div{
+    
+}
+.noUserSignPage div{
+    border: 2px solid green;
+
+} */
+.noUserSignPageOnwindow div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.noUserSignPage div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.signupDiv{
+    margin-right: 2vw;
+}
+.jex{
+    color: rgb(0, 157, 201);
+}
+.logoutbtn{
+    outline: none;
+    border: none;
+    color: black;
+    color: black;
+    font-weight: 800;
+    
+}
+.profile{
+    font-weight: 700;
+    cursor: pointer;
+}
+.userProfileDiv{
+    z-index:10;
+    position: absolute;
+    width: 34vw;
+    min-height: 3vw;
+    border: 2px solid rgb(49, 103, 134);
+    top:4vw ;
+    background-color: rgb(245, 243, 243);
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1vw;
+   
+}
+.userPrfilePhotoandName{
+    padding-top: 0.3vw;
+    display: flex;
+
+}
+.profilepic{
+     width: 10vw;
+     min-height: 2vw;
+    
+}
+.profilename{
+    width: 20vw;
+    min-height: 2vw;
+    
+}
+.profilepicContainer{
+    text-align: center;
+}
+.imagePic{
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    object-fit: cover;
+   
+}
+.profilepicUpdateDiv{
+    text-align: center;
+}
+.profilepicUpdateDiv button{
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    padding: 0.3vw;
+    border-radius: 0.3vw;
+}
+.fileSelect{
+    display: none;
+}
+.Username{
+  
+    font-weight: 700;
+}
+.profilename{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2vw;
+}
+.statusUser{
+    font-weight: 700;
+}
+.userExtraThing{
+    margin-top: 0.2vw;
+    width: 75%;
+}
+@media (max-width:450px){
+    .NAVbarDiv{
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        position: relative;
+    }
+    .logo{
+        font-weight: 700;
+        font-size: 5vw;
+        margin-left: 4vw;
+    }
+    .threeBar{
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 7vw;
+        position: absolute;
+        right: 4vw;
+        top: 1.8vw;
+       
+        display: block;
+    }
+    .noUserSignPage{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 2px solid rgb(255, 255, 255);
+        width: 70vw;
+        position: absolute;
+        right: 10px;
+        top: 15vw;
+        z-index: 20;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        border: 1px solid black;
+        
+    }
+    .noUserSignPage div{
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        padding: 0.3vw 6vw;
+        
+    }
+    .signupDiv{
+        margin-top: 2vw;
+        margin-top: 2vw;
+    }
+    .noUserSignPageOnwindow{
+        display: none;
+    }
+
+    .userProfileDiv{
+        width: 57vw;
+        top: -2vw;
+        right: 0px;
+       
+    }
+    .userPrfilePhotoandName{
+        align-items: center;
+        flex-direction: column;
+    }
+    .profilepic{
+        width: 40vw;
+    }
+    .imagePic{
+        width: 20vw;
+        height: 20vw;
+    }
+    .xmarkspan{
+        width: 100%;
+    }
+    .xmark{
+        float: right;
+        margin-right:4vw;
+    }
+    .profilepicUpdateDiv button{
+        width: 100%;
+      padding: 2vw;
+      font-size: 3vw;
+      border-radius: 2vw;
+      font-weight: 700;
+    }
+    .profilename{
+        width: 100%;
+        margin-left: 1vw;
+    }
+    .emailUser{
+        margin-top: 2vw;
+        text-align: center;
+    }
+    .Username{
+        text-align: center;
+    }
+    .userExtraThing{
+        width: 90%;
+    }
+
+
+}
+
+

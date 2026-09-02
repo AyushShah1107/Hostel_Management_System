@@ -1,0 +1,297 @@
+.descANDSearch{
+    background-color: black;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2vw;
+}
+.desc{
+    font-family: monospace;
+     font-size: 1.2vw;
+    color: white;
+    width: 70vw;
+    margin-top: 1vw;
+}
+.searchName{
+    color: white;
+    margin-right: 1vw;
+    font-weight: 700;
+    border-bottom: 1px solid white;
+}
+.hostelInput{
+    width: 60vw;
+    padding: 0.5vw 0.5vw;
+    font-weight: 700;
+    letter-spacing: 0.1vw;
+}
+.moto{
+   font-size: 1.5vw;
+   border: 2px solid white;
+    color: white;
+    font-weight: 800;
+    margin-top: 1.5vw;
+    padding: 0.4vw;
+}
+.searchOptions{
+    position: relative;
+    margin-top: 3vw;
+}
+.filteredHostelsnames{
+    z-index: 100;
+    border: 2px solid black;
+    position: absolute;
+    margin-top: 0.2vw;
+    width: 60vw;
+    min-height: 2vw;
+    background-color: white;
+    margin-left: 4.4vw;
+    padding: 0.5vw 0.5vw;
+    border-radius: 0.3vw;
+
+}
+.names{
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.2s;
+    padding: 0.4vw;
+
+}
+.names:hover{
+    background-color: rgb(223, 223, 223);
+}
+.RatingDivs{
+    background-image: url("../components/Images/port.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    min-height: 50vh;
+    padding-bottom: 8vw;
+}
+.feedbackStars{
+    position: relative;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vw;
+    width: 40vw;
+    min-height: 30vh;
+    background-color: rgb(254, 254, 254);
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+    
+   
+}
+.details{
+    margin-top: 2vw;
+    width: 40vw;
+    min-height: 40vh;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 2vw;
+    padding-bottom: 2vw;
+    border: 2px solid black;
+}
+.feedbackContainer{
+    width:30vw ;
+    height: 25vh;
+    margin-top:4vh;
+    font-weight: 700;
+    outline: none;
+    border: 2px solid black;
+    padding-left: 0.3vw;
+    padding-top: 0.1vw;
+}
+.stars{
+  
+    padding-top: 1vw;
+   
+}
+.starsRate{
+    opacity: 1;
+    scale: 4;
+}
+.ratedStars{
+    font-weight: 700;
+    margin-top: 1vw;
+}
+.inputs_detail{
+    width: 30vw;
+    margin-left: 5vw;
+    margin-top: 1.5vw;
+}
+.labels{
+    font-weight: 700;
+    font-size: 1.2vw;
+}
+.inputBox{
+    width: 30vw;
+    padding: 0.5vw 0.2vw;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.submFeed{
+    margin-top: 1.6vw;
+    width: 30vw;
+    margin-left: 5vw;
+}
+.submBtn{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    width: 15vw;
+    padding: 0.4vw;
+}
+.errdetails{
+    color: red;
+        font-weight: 700;
+    margin-top: 0.1vw;
+}
+.displayedbox
+{   margin-top: 0.4vw;
+    text-align: center;
+}
+.feed{
+    color: green;
+    font-weight: 700;
+   
+    margin-top: 0.4vw;
+}
+.submitting{
+    color: rgb(235, 64, 64);
+    font-weight: 700;
+   
+    margin-top: 0.4vw;
+}
+
+@media(max-width:450px){
+    .descANDSearch{
+        min-height: 40vh;
+    }
+    .desc{
+        margin-top: 4vw;
+        width: 80vw;
+        font-size: 4vw;
+        font-weight: 700;
+    }
+    .moto{
+        margin-top: 5vw;
+        border: 2px solid rgb(255, 255, 255);
+        padding: 2vw;
+        font-weight: 800;
+        font-size: 6vw;
+    }
+    .hostelInput{
+        padding: 2vw 1vw;
+        outline: none;
+        border: 2px solid white;
+        font-weight: 600;
+        letter-spacing: 0.5vw;
+        font-size: 3vw;
+    }
+    .searchName{
+        margin-right: 2vw;
+    }
+    .searchOptions{
+       
+        margin-top: 8vw;
+      
+
+    }
+    .feed{
+        margin-top: 4vw;
+    }
+    .submitting{
+        margin-top: 4vw;
+    }
+    .filteredHostelsnames{
+       
+        border-radius: 1vw;
+        padding-left: 3vw;
+        padding: 2vw 1vw;
+        margin-top: 1vw;
+        min-height: 6vw;
+        margin-left: 14vw;
+    }
+    .RatingDivs{
+        min-height: 70vh;
+        padding-bottom: 20vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .errdetails{
+        margin-top: 2vw;
+        color: red;
+        font-weight: 700;
+    }
+    .feedbackStars{
+        opacity: 0.75;
+       background-color: white;
+        margin-top: 12vw;
+        padding-bottom: 5vw;
+        width: 90vw;
+    }
+    .details{
+        margin-top: 12vw;
+        width: 90vw;
+        padding-bottom: 10vw;
+    }
+    .feedbackContainer{
+        width:80vw ;
+        height: 20vh;
+        margin-top: 2vh;
+        outline: none;
+        border: 2px solid black;
+        padding-left: 2vw;
+        padding-top: 2vw;
+       
+    }
+    .displayedbox{
+        margin-top: 4vw;
+    }
+    .stars{
+        margin-bottom: 3vw;
+        margin-top: 3vw;
+    }
+    .starsRate{
+       
+        scale: 3;
+    }
+    .ratedStars{
+        margin-bottom: 1vw;
+    }
+    .inputs_detail{
+        margin-top: 8vw;
+        width: 70vw;
+        margin-left: 9vw;
+    }
+    .labels{
+        font-size: 5vw;
+    }
+    .inputBox{
+        width: 70vw;
+        padding: 2.4vw 1vw;
+        font-size: 3vw;
+        letter-spacing: 0.4vw;
+        font-weight: 500;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid black;
+    }
+    .inputDIv{
+        margin-top: 1vw;
+    }
+    .submFeed{
+        width: 76vw;
+        margin-left: 10vw;
+        margin-top: 10vw;
+    }
+    .submBtn{
+        width: 70vw;
+        padding: 2vw;
+    }
+}

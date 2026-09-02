@@ -1,0 +1,118 @@
+.loginMainDiv{
+    height: 92vh;
+    background-color: #035781;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginBox{
+    width: 45vw;
+    height: 45vh;
+
+    background-color: white;
+    border-radius: 0.2vw;
+   
+    padding-bottom: 1vw;
+}
+.userDetailsdiv{
+    margin-top: 2vw;
+    width: 30vw;
+    margin-left: 7.5vw;
+}
+.userInput{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 0.3vw 0.2vw;
+    width: 30vw;
+    letter-spacing: 0.1vw;
+}
+.label{
+    font-weight: 700;
+    font-size: 1.4vw;
+}
+.forgotDiv{
+    margin-top: 3px;
+    width: 30vw;
+    margin-left: 7.5vw;
+}
+.forgotDiv a{
+    color: black;
+}
+.lognBtn{
+    padding: 0.4vw;
+    width: 30vw;
+    font-size: 1vw;
+    background-color: black;
+    color: white;
+}
+.forgotDivbtn{
+    margin-top: 1vw;
+    width: 30vw;
+    margin-left: 7.5vw;
+}
+.emptyField{
+    color: red;
+}
+.unabletologin{
+    margin-top: 3px;
+    width: 30vw;
+    margin-left: 7.5vw;
+    text-align: center;
+    padding-top: 0.4vw;
+    padding-bottom: 0.4vw;
+    border: 2px solid red;
+    background-color: rgb(245, 210, 210);
+    font-weight: 700;
+}
+@media (max-width:450px){
+    .loginMainDiv{
+
+        height: 94vh;
+    }
+    .loginBox{
+        width: 90vw;
+        height: 60vh;
+    }
+    .userDetailsdiv{
+        margin-top: 14vw;
+        width: 70vw;
+        margin-left: 10vw;
+    }
+    .userInput{
+        width: 70vw;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid black;
+        padding: 3vw 1vw;
+    }
+    .label{
+        font-size: 6vw;
+    }
+    .forgotDiv{
+        width: 70vw;
+        margin-left: 10vw;
+    }
+    .forgotDivbtn{
+        width: 70vw;
+        margin-left: 10vw;
+        margin-top: 4vw;
+    }
+    .unabletologin{
+        width: 70vw;
+        margin-left: 10vw;
+        text-align: center;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        border: 2px solid red;
+        background-color: rgb(244, 202, 202);
+        font-weight: 700;
+        font-size: 3vw;
+    }
+
+    .lognBtn{
+        width: 70vw;
+        padding: 2vw;
+        font-size: 4vw;
+    }
+}

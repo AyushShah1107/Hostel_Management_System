@@ -1,0 +1,39 @@
+.footerMainDiv{
+    min-height: 2vh;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    text-align: center;
+}
+.socialHandles{
+    margin-top: 1vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    width: 10vw;
+    justify-content: space-around;
+}
+.Contact{
+    margin-top: 1vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.handle{
+    cursor: pointer;
+    transform: scale(1.4);
+}
+@media(max-width:450px){
+    .footerMainDiv{
+        min-height: 10vh;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+    }
+    .socialHandles{
+        margin-top: 3vw;
+        width: 30vw;
+    }
+}
